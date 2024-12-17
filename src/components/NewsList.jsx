@@ -25,7 +25,7 @@ const NewsList = () => {
     }
 
     return (
-        <div className="grid grid-cols-4 gap-4 pt-[10px] pb-[50px] max-lg:flex max-lg:flex-col max-lg:gap-[10px]">
+        <div className="grid grid-cols-4 gap-4 lg:px-[40px] pt-[10px] pb-[50px] max-lg:flex max-lg:flex-col max-lg:gap-[10px]">
             {newsData.map((news, index) => {
                 return (
                     <div key={index} className="flex flex-col py-[20px] px-[20px] justify-between">

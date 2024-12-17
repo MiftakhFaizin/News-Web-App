@@ -26,8 +26,8 @@ const Navbar = () => {
     }, [newsData])
 
     return (
-        <div className="flex justify-between items-center w-full px-[20px] py-[10px] ">
-            <ul className={`${dropdownMenu ? "fixed top-0 left-0 w-[80%] h-screen bg-white z-40 flex-col items-center gap-[10px] pt-[50px] max-lg:px-[30px] shadow-lg shadow-r-slate-800" : "max-lg:hidden"} flex gap-[20px]"text-gray-600`}>
+        <div className="flex justify-between items-center w-full px-[20px] lg:px-[60px] py-[10px] ">
+            <ul className={`${dropdownMenu ? "fixed top-0 left-0 w-[80%] h-screen bg-white z-40 flex-col items-center gap-[10px] pt-[50px] max-lg:px-[30px] shadow-lg shadow-r-slate-800" : "max-lg:hidden"} flex gap-[20px] text-gray-600`}>
                 <span onClick={() => {setDropdownMenu(false)}} className="lg:hidden self-end">&#10060;</span>
                 <Link onClick={() => {setDropdownMenu(false)}} to="" className="hover:text-blue-500 transition-colors duration-300 ease-in-out">Indonesia</Link>
                 <Link onClick={() => {setDropdownMenu(false)}} to="programming-news" className="hover:text-blue-500 transition-colors duration-300 ease-in-out">Programming</Link>
