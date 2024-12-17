@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { useDispatch, useSelector } from "react-redux"
+import { useDispatch } from "react-redux"
 import NewsList from "../components/NewsList"
 import Loading from "../components/Loading"
 import ErrorAPI from "../components/ErrorAPI"
