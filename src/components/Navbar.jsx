@@ -28,7 +28,7 @@ const Navbar = () => {
     return (
         <div className="flex justify-between items-center px-[40px] py-[10px] ">
             <ul className={`${hamburgerMenu ? "fixed top-0 left-0 w-[80%] h-screen bg-white z-40 flex-col gap-[10px] pt-[50px] max-lg:px-[30px] shadow-lg shadow-r-slate-800" : "max-lg:hidden"} flex gap-[20px] pl-[20px] text-gray-600`}>
-                <span onClick={() => {setHamburgerMenu(false)}} className="self-end lg:hidden">&#10060;</span>
+                <span onClick={() => {setHamburgerMenu(false)}} className="lg:hidden self-end">&#10060;</span>
                 <Link onClick={() => {setHamburgerMenu(false)}} to="" className="hover:text-blue-500 transition-colors duration-300 ease-in-out">Indonesia</Link>
                 <Link onClick={() => {setHamburgerMenu(false)}} to="programming-news" className="hover:text-blue-500 transition-colors duration-300 ease-in-out">Programming</Link>
                 <Link onClick={() => {setHamburgerMenu(false)}} to="covid-news" className="hover:text-blue-500 transition-colors duration-300 ease-in-out">Covid-19</Link>
