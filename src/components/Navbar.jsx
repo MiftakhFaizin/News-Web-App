@@ -46,11 +46,11 @@ const Navbar = () => {
                 onChange={handleInput} 
                 value={inputValue}
                 placeholder="Input Keyword"
-                className="border border-gray-600 border-r-blue-500 outline-none rounded-l-[4px] px-[9px] py-[2px]">
+                className="border border-gray-600 border-r-blue-500 outline-none rounded-l-[4px] px-[9px] max-md:px-[4px] py-[2px] max-md:py-[1px]">
                 </input>
                 <button 
                 onClick={handleSearchBtn} 
-                className="text-white bg-blue-500 hover:bg-blue-600 px-[5px] py-[3px] rounded-r-[4px] transition-colors duration-300 ease-in-out">
+                className="text-white bg-blue-500 hover:bg-blue-600 px-[5px] max-md:px-[2px] py-[3px] max-md:py-[2px] rounded-r-[4px] transition-colors duration-300 ease-in-out">
                 Search
                 </button>
             </div>
