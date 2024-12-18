@@ -36,7 +36,7 @@ const HomePage = () => {
     return (
         <div>
             <div className=" py-[50px] border-b border-slate-500">
-                <p className="text-[20px] font-bold text-center">NEWS</p>
+                <p className="text-[20px] font-bold text-center">INDONESIA NEWS</p>
             </div>
             {loading ? <Loading /> : error ? <ErrorAPI handleTryAgainBtn={handleTryAgainBtn} /> : <NewsList />}
         </div>
